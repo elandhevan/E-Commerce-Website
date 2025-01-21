@@ -1,0 +1,48 @@
+
+body {
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    min-height: 100vh;
+    background: white;
+    margin: 0;
+    color: black;
+}
+.root{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.hero{
+    height: 100vh;
+    background: linear-gradient(100deg,#fde1ff,#e1ffea22 60%);
+    display: flex;
+    margin: 0;
+    width: 100%;
+    
+}
+.hero-left{
+    display: flex;
+    align-items: center;
+    margin-left: 180px;
+    width: 50%;
+}
+.hero-right{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    width: 20%;
+    
+    
+}
+.hand-hand-icon{
+    box-shadow:  0 0 5px;
+    padding-left: 20px;
+    font-size: 2rem;
+    margin-top: 20px;
+}
+h2{
+    margin-top: 20px;
+    font-size: 2rem;
+}
